@@ -31,7 +31,7 @@ Añadir fichero 2.txt
 #### 1. Añadir un fichero **2.txt** en la rama **v0.2**.
 
 ```bash
-    echo "fichero 2" > 2.txt
+    echo "Fichero 2" > 2.txt
 ```
 
 Crear rama remota v0.2
@@ -84,6 +84,7 @@ Merge con conflicto
 #### 3. Posicionarse de nuevo en la rama **master** y hacer un merge con la rama **v0.2**
 
 ```bash
+    git checkout master
     git merge v0.2 -m "Se hace un nuevo merge de la rama v0.2 en master, con errores"
 ```
 
@@ -111,7 +112,7 @@ Arreglar conflicto
     git commit -m "Subimos las correcciones al merge fallido"
 ```
 
-    ---> git list y copiamos la imagen...
+![Ramas con merge y sin merge](images/MergeCorregido-01.PNG)
 
 Borrar rama
 ==================================================
@@ -136,6 +137,8 @@ Listado de cambios
 ```bash
     git list
 ```
+
+![Ramas con merge y sin merge](images/MergeCorregido-01.PNG)
 
 Crear una organización
 ==================================================
