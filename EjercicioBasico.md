@@ -1,8 +1,8 @@
 Ejercicio práctico sobre la utilización básica de Git, GitHub y Markdown 
 ==================================================
 
-- ###Alumno: **Juan Antonio García Cuevas**
-- ###Fecha.: 16/05/2016
+- Alumno: **Juan Antonio García Cuevas**
+- Fecha.: 16/05/2016
 
 Repositorio campusciff
 ==================================================
@@ -19,7 +19,9 @@ Repositorio campusciff
 
 *Desde línea de comandos*:
 
+```console
     git clone git@github.com:juangarciaciff/campusciff.git
+```
 
 ![Clonar repositorio](images/ClonarRepositorio.PNG)
 
@@ -30,8 +32,10 @@ README
 
 *Desde línea de comandos*:
 
+```console
     cd campusciff
 	echo "" > README.md 
+```
 
 > Notas: en este documento tendreís que ir poniendo los **comandos** que habéis tenido que utilizar durante todos los ejercicios y las **explicaciones y capturas de pantalla** que consideréis **necesarias**.
 
@@ -46,8 +50,10 @@ Commit inicial
 
 *Desde línea de comandos*:
 
+```console
 	git add README.md
 	git commit -m "Commit inicial"
+```
 
 Push inicial
 ==================================================
@@ -56,7 +62,9 @@ Push inicial
 
 *Desde línea de comandos*:
 
+```console
 	git push origin master
+```
 	
 Ignorar archivos
 ==================================================
@@ -65,21 +73,27 @@ Ignorar archivos
 
 *Desde línea de comandos*:
 
+```console
 	echo "" > privado.txt
+''''''
 
 #### 2. Crear en el repositorio local una carpeta llamada privada. 
 
 *Desde línea de comandos*:
 	
+```console
 	mkdir privada
+```
 
 #### 3. Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git. 
 
 *Desde línea de comandos*:
 
+```console
 	echo "*~" > .gitignore
 	echo "privado.txt" > .gitignore
 	echo "privada/*" > .gitignore
+```
 
 > Nota: he añadido "*~"
 
@@ -99,7 +113,9 @@ Crear el tag v0.1
 
 *Desde línea de comandos*:
 
+```console
 	git tag v0.1
+```
 
 Subir el tag v0.1
 ==================================================
@@ -108,10 +124,12 @@ Subir el tag v0.1
 
 *Desde línea de comandos*:
 
+```console
 	git add .gitignore
 	git add 1.txt
 	git commit -m "Segundo commit"
 	git push origin master
+```
 
 ![Segundo commit](images/SegundoCommit.PNG)
 
@@ -130,7 +148,7 @@ Cuenta de GitHub
 *Desde un navegador web*:
 
 1. Desde el menú desplegable de la esquina superior derecha de la pantalla seleccionar la opción "**Setting**"
-1. Pulsar sobre la opción "**Security**" del menú: <https://github.com/settings/profile>. ![Primera pantalla](images/FactorAutenticacion2-01.PNG)
+1. Pulsar sobre la opción "**Security**" del menú:. ![Primera pantalla](images/FactorAutenticacion2-01.PNG)
 1. Pulsar sobre el botón "**Set up two-factor authentication**". ![Segunda pantalla](images/FactorAutenticacion2-02.PNG)
 1. Seleccionar una de las opciones, rellenar los datos y seguir las intrucciones. En la imagen siguiente se muestra el formulario que aparece después de haber pulsado sobre el botón "**Set up using SMS**". ![Tercera pantalla](images/FactorAutenticacion2-03.PNG)
 
@@ -138,11 +156,13 @@ Cuenta de GitHub
 
 *Desde línea de comandos*:
 
+```console
     ls -al ~/.ssh                                            #Comprobar si existen claves SSH
     ssh-keygen -t rsa -b 4096 -C "juangarcia@campusciff.net" #Generar una nueva clave SSH
     eval "$(ssh-agent -s)"                                   #Asegurar que el agente SSH está activo
     ssh-add ~/.ssh/id_rsa                                    #Añadir la clave SSH al agente SSH
     cat ~/.ssh/id_rsa.pub                                    #Copiar al portapapeles el contenido de ese fichero
+```
 
 ![SSH generación](images/GenerarSSH-01.PNG)
 
@@ -161,11 +181,14 @@ Uso social de GitHub
 
 1. Desde el menú desplegable de la esquina superior derecha de la pantalla seleccionar la opción "**Explore**".
 1. En el cuadro de texto de la parte superior de la nueva pantalla escribir el nombre de usuario de un compañero y pusar la tecla Return. ![Burcar compañeros](images/BuscarOtros-01.PNG)
-1. Aparecerça una nueva pantalla con la lista de elementos de GitHun que corresponden al texto escrito. Pulsar sobre la opción "**Users**" del menú, localizar la persona buscada y pulsar sobre el botón "**Follow**" correspondiente. ![Burcar compañeros](images/BuscarOtros-02.PNG)
+1. Aparecerá una nueva pantalla con la lista de elementos de GitHub que corresponden al texto escrito. Pulsar sobre la opción "**Users**" del menú, localizar la persona buscada y pulsar sobre el botón "**Follow**" correspondiente. ![Burcar compañeros](images/BuscarOtros-02.PNG)
+1. En la pantalla "Following" pueden verse los compañreros a los que se está siguiendo. ![Siguiendo A](images/SiguiendoA.PNG)
 
 #### 2. Seguir los repositorios campusciff del resto de tus compañeros. 
 
 #### 3. Añadir una estrella a los repositorios campusciff del resto de tus compañeros. 
+
+*Desde un navegador web*:
 
 1. Acceder a la página GitHub de un compañero (Ej.: _https://github.com/eserranom_) y pulsar sobre el nombre del repositorio "**campusciff**".
 1. En la pantalla del repositorio pulsar sobre el botón "**Star**". ![Marcar estrella](images/MarcarEstrella.PNG)

@@ -1,8 +1,8 @@
 Ejercicio práctico sobre la utilización avanzada de Git, GitHub y Markdown
 ==================================================
 
-- ###Alumno: **Juan Antonio García Cuevas**
-- ###Fecha.: 16/05/2016
+- Alumno: **Juan Antonio García Cuevas**
+- Fecha.: 16/05/2016
 
 Notas
 ==================================================
