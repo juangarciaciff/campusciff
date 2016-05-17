@@ -155,7 +155,7 @@ Crear equipos
 1. Introducir **juangarcia@campusciff.net** en el cuadro de texto "**Billing email**"
 1. Pulsar sobrre el botón "**Create organization**"
 
-![Crear organización](images/CrearOrganizacion-01.PNG)
+![Crear organizacion](images/CrearOrganizacion-01.PNG)
 
 #### 2. Meter a github.com/asanzdiego y a 2 de vuestros compañeros de clase en el equipo **administradores**.
 
