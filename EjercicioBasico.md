@@ -37,7 +37,7 @@ README
 	echo "" > README.md 
 ```
 
-> Notas: en este documento tendreís que ir poniendo los **comandos** que habéis tenido que utilizar durante todos los ejercicios y las **explicaciones y capturas de pantalla** que consideréis **necesarias**.
+> Notas: en este documento tendreis que ir poniendo los **comandos** que habéis tenido que utilizar durante todos los ejercicios y las **explicaciones y capturas de pantalla** que consideréis **necesarias**.
 
 Commit inicial
 ==================================================
@@ -177,7 +177,7 @@ Cuenta de GitHub
 Uso social de GitHub
 ==================================================
 
-#### 1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y siguelos. 
+#### 1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y síguelos. 
 
 *Desde un navegador web*:
 
@@ -191,7 +191,7 @@ Uso social de GitHub
 *Desde un navegador web*:
 
 1. Acceder a la página GitHub de un compañero (Ej.: _https://github.com/eserranom_) y pulsar sobre el nombre del repositorio "**campusciff**".
-1. En la pantalla del repositorio pulsar sobre el botón "**Watch**". ![Marcar seguimiento](images/MarcarSeguimiento.PNG)
+1. En la pantalla del repositorio pulsar sobre el botón "**Watch**" y seleccionar la opción "**Watching**". ![Marcar seguimiento](images/MarcarSeguimiento.PNG)
 
 #### 3. Añadir una estrella a los repositorios campusciff del resto de tus compañeros. 
 
