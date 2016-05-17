@@ -19,7 +19,7 @@ Repositorio campusciff
 
 *Desde línea de comandos*:
 
-```console
+```bash
     git clone git@github.com:juangarciaciff/campusciff.git
 ```
 
@@ -32,7 +32,7 @@ README
 
 *Desde línea de comandos*:
 
-```console
+```bash
     cd campusciff
 	echo "" > README.md 
 ```
@@ -50,7 +50,7 @@ Commit inicial
 
 *Desde línea de comandos*:
 
-```console
+```bash
 	git add README.md
 	git commit -m "Commit inicial"
 ```
@@ -62,7 +62,7 @@ Push inicial
 
 *Desde línea de comandos*:
 
-```console
+```bash
 	git push origin master
 ```
 	
@@ -73,15 +73,15 @@ Ignorar archivos
 
 *Desde línea de comandos*:
 
-```console
+```bash
 	echo "" > privado.txt
-''''''
+```
 
 #### 2. Crear en el repositorio local una carpeta llamada privada. 
 
 *Desde línea de comandos*:
 	
-```console
+```bash
 	mkdir privada
 ```
 
@@ -89,7 +89,7 @@ Ignorar archivos
 
 *Desde línea de comandos*:
 
-```console
+```bash
 	echo "*~" > .gitignore
 	echo "privado.txt" > .gitignore
 	echo "privada/*" > .gitignore
@@ -104,7 +104,9 @@ Añadir fichero 1.txt
 
 *Desde línea de comandos*:
 
+```bash
 	echo "Este es el fichero 1" > 1.txt
+```
 
 Crear el tag v0.1
 ==================================================
@@ -113,7 +115,7 @@ Crear el tag v0.1
 
 *Desde línea de comandos*:
 
-```console
+```bash
 	git tag v0.1
 ```
 
@@ -124,7 +126,7 @@ Subir el tag v0.1
 
 *Desde línea de comandos*:
 
-```console
+```bash
 	git add .gitignore
 	git add 1.txt
 	git commit -m "Segundo commit"
@@ -156,12 +158,12 @@ Cuenta de GitHub
 
 *Desde línea de comandos*:
 
-```console
+```bash
     ls -al ~/.ssh                                            #Comprobar si existen claves SSH
     ssh-keygen -t rsa -b 4096 -C "juangarcia@campusciff.net" #Generar una nueva clave SSH
     eval "$(ssh-agent -s)"                                   #Asegurar que el agente SSH está activo
     ssh-add ~/.ssh/id_rsa                                    #Añadir la clave SSH al agente SSH
-    cat ~/.ssh/id_rsa.pub                                    #Copiar al portapapeles el contenido de ese fichero
+    cat ~/.ssh/id_rsa.pub                                    #Copiar fichero al portapapeles
 ```
 
 ![SSH generación](images/GenerarSSH-01.PNG)
