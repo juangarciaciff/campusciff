@@ -188,6 +188,11 @@ Uso social de GitHub
 
 #### 2. Seguir los repositorios campusciff del resto de tus compañeros. 
 
+*Desde un navegador web*:
+
+1. Acceder a la página GitHub de un compañero (Ej.: _https://github.com/eserranom_) y pulsar sobre el nombre del repositorio "**campusciff**".
+1. En la pantalla del repositorio pulsar sobre el botón "**Watch**". ![Marcar seguimiento](images/MarcarSeguimiento.PNG)
+
 #### 3. Añadir una estrella a los repositorios campusciff del resto de tus compañeros. 
 
 *Desde un navegador web*:
@@ -229,6 +234,6 @@ Colaboradores
 1. Acceder al la página principal del repositorio **campusciff**.
 1. Acceder a la pestaña "**Settings**".
 1. Acceder a la opción de menú "**Collaborators**".
-1. Escribir (o buscar) "**asanzdiego**" en el cuadro de texto "**Search by username, full name or email address**".
-1. Pulsar el botón "**Add collaborator**". ![Agregando colaborador](images/AgregarColaborador-01.PNG) ![Colaborador agregado](images/AgregarColaborador-02.PNG)
+1. Escribir (o buscar) "**asanzdiego**" en el cuadro de texto "**Search by username, full name or email address**". ![Agregando colaborador](images/AgregarColaborador-01.PNG)
+1. Pulsar el botón "**Add collaborator**". ![Colaborador agregado](images/AgregarColaborador-02.PNG)
 
