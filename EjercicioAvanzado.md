@@ -112,7 +112,7 @@ Arreglar conflicto
     git commit -m "Subimos las correcciones al merge fallido"
 ```
 
-![Ramas con merge y sin merge](images/MergeCorregido-01.PNG)
+![Merge corregido](images/MergeCorregido-01.PNG)
 
 Borrar rama
 ==================================================
@@ -138,7 +138,7 @@ Listado de cambios
     git list
 ```
 
-![Ramas con merge y sin merge](images/MergeCorregido-01.PNG)
+![List](images/MergeCorregido-02.PNG)
 
 Crear una organización
 ==================================================
