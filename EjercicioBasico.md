@@ -237,3 +237,5 @@ Colaboradores
 1. Escribir (o buscar) "**asanzdiego**" en el cuadro de texto "**Search by username, full name or email address**". ![Agregando colaborador](images/AgregarColaborador-01.PNG)
 1. Pulsar el botón "**Add collaborator**". ![Colaborador agregado](images/AgregarColaborador-02.PNG)
 
+:+1:
+
