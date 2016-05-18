@@ -127,7 +127,7 @@ Arreglar conflicto
 
 #### 1. Arreglar el conflicto anterior y hacer un commit.
 
-*Primero editamos el fichero "1.txt" y hacemos las correcciones pertinentes. Después, desde línea de comandos*:
+*Primero editamos el fichero "**1.txt**" y hacemos las correcciones pertinentes. Después, desde línea de comandos*:
 
 ```bash
     git add -A
@@ -140,11 +140,15 @@ Borrar rama
 
 #### 1. Crear un tag **v0.2**
 
+*Desde línea de comandos*:
+
 ```bash
     git tag v0.2 -m "Asignando versión v0.2 a la rama principal"
 ```
 
 #### 2. Borrar la rama **v0.2**
+
+*Desde línea de comandos*:
 
 ```bash
     git branch -d v0.2
@@ -154,6 +158,8 @@ Listado de cambios
 ==================================================
 
 #### 1. Listar los distintos commits con sus ramas y sus tags.
+
+*Desde línea de comandos*:
 
 ```bash
     git list
@@ -166,9 +172,9 @@ Crear una organización
 
 #### 1. Crear una organización llamada **campusciff-tunombredeusuariodegithub**
 
-1. Pulsar en el icono "**+**" en el lado superior derecho de la ppantalla y seleccionar "**New organization**".
-1. Introducir **campusciff-juangarciaciff** en el cuadro de texto "**Organization name**".
-1. Introducir **juangarcia@campusciff.net** en el cuadro de texto "**Billing email**".
+1. En el menú despplegable "**+**" situado en la parte superior derecha de la pantalla seleccionar "**New organization**".
+1. Introducir "**campusciff-juangarciaciff**" en el cuadro de texto "**Organization name**".
+1. Introducir "**juangarcia@campusciff.net**" en el cuadro de texto "**Billing email**".
 1. Pulsar sobre el botón "**Create organization**". ![Crear organizacion](images/CrearOrganizacion-01.PNG)
 1. En la nueva pantalla pulsar "**Finish**". ![Crear organizacion](images/CrearOrganizacion-02.PNG)
 
@@ -177,9 +183,9 @@ Crear equipos
 
 #### 1. Crear 2 equipos en la organización **campusciff-tunombredeusuariodegithub**, uno llamado **administradores** con más permisos y otro **colaboradores** con menos permisos.
 
-1. En la úlima pantalla acceder al tab "**Teams**" y pulsar sobre el botón "**Create a new team**" de la nueva pantalla. ![Crear equipos](images/CrearEquipos-01.PNG)
-1. En el formulario introducir "**administradores**" en el campo "**Team name**" y pulsar sobre el botón "**Create team**". ![Crear equipos](images/CrearEquipos-02.PNG)
-1. Seleccionar el equipo "**administradores**" y pulsar en el botón "**Settings**". Se abre una nueva pantalla, en la que hay que pulsr sobre el tab "**Settings**". Luego en la opción de menú "**Members privileges**". Allí, seleccionar el permiso "**Admin**" y pulsar el botón "**Save**". ![Crear equipos](images/AsignarPermisos-01.PNG)
+1. En la última pantalla acceder al tab "**Teams**"; se abrirá una pantalla nueva, en la que hay que pulsar sobre el botón "**Create a new team**". ![Crear equipos](images/CrearEquipos-01.PNG)
+1. En el campo "**Team name**" del formulario introducir "**administradores**", y pulsar el botón "**Create team**". ![Crear equipos](images/CrearEquipos-02.PNG)
+1. Seleccionar el equipo "**administradores**" y pulsar en el botón "**Settings**". Se abre una nueva pantalla en la que hay que pulsar el tab "**Settings**". Luego en la opción de menú "**Members privileges**". Allí, seleccionar el permiso "**Admin**" y pulsar el botón "**Save**". ![Crear equipos](images/AsignarPermisos-01.PNG)
 1. Repetir la operación para crear el equipo de colaboradores, pero esta vez asignando el permiso "**Write**".
 
 #### 2. Meter a github.com/asanzdiego y a 2 de vuestros compañeros de clase en el equipo **administradores**.
