@@ -15,7 +15,7 @@ Repositorio campusciff
 
 1. Acceder al sitio web de **GitHub** y logarse con usuario y contraseña: <https://github.com/>.
 1. Acceder a la página "**Create a new repository**" a través de la opción "**New repository**" del menú desplegable "**+**" situado en la parte superior derecha de la pantalla.
-1. Escribir el nombre del repositorio (**campusciff**) en el cuadro de texto "**Repository name**" y pulsar "**Create repository**". ![Crear repositorio](images/CrearRepositorio.PNG)
+1. Escribir el nombre del repositorio (**campusciff**) en el cuadro de texto "**Repository name**" y pulsar "**Create repository**".![Crear repositorio](images/CrearRepositorio.PNG)
 
 #### 2. Clonar vuestro repositorio en local. 
 
