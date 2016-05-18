@@ -219,10 +219,11 @@ Crear un index.html
     **Creada por Juan Antonio  García Cuevas el 18 de mayo de 2016**
     ![en construcción](http://deusolibre.com/imagenes/construccion.jpg)
 ```
- ![Crear index.html](images/Index-05.PNG)
+![Crear index.html](images/Index-05.PNG)
 
     6. Después pulsamos el botón "**Continue to layouts**" que nos redirige a la página web, donde podemos cambiar el tema o estilo. Luego pulsamos el botón "**Publish page**". ![Crear index.html](images/Index-06.PNG)
 . Con esto hemos terminado de crear la página index.html, con el archivo "**params.json**" y directorio "**stylesheets**" adicionales. ![Crear index.html](images/Index-07.PNG)
+
     7. Ahora, ya podemos acceder directamente con la siguiente url, formada únicamente por "http://" seguido del nombre de la organización:
 ```html
     http://campusciff-juangarciaciff.github.io/
