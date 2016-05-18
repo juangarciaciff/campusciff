@@ -190,13 +190,13 @@ Crear equipos
 1. Navegar hasta la página de la organización recién creada y acceder al tab "**Teams**"; se abrirá una pantalla nueva, en la que hay que pulsar sobre el botón "**Create a new team**". ![Crear equipos](images/CrearEquipos-01.PNG)
 1. En el campo "**Team name**" del formulario introducir "**administradores**" y pulsar el botón "**Create team**". ![Crear equipos](images/CrearEquipos-02.PNG)
 1. Seleccionar el equipo "**administradores**" y pulsar en el botón "**Settings**". Se abre una nueva pantalla en la que hay que pulsar el tab "**Settings**". Luego en la opción de menú "**Members privileges**". Allí, seleccionar el permiso "**Admin**" y pulsar el botón "**Save**". ![Crear equipos](images/AsignarPermisos-01.PNG)
-1. Repetir la operación para crear el equipo de colaboradores, pero esta vez asignando el permiso "**Write**".
+1. Repetir la operación para crear el equipo de "**colaboradores**", pero esta vez asignando el permiso "**Write**".
 
 #### 2. Meter a github.com/asanzdiego y a 2 de vuestros compañeros de clase en el equipo **administradores**.
 
 *Desde un navegador web*:
 
-1. Navegar hasta la página del equipo "**administradores**" la organización recién creada. En el cuadro de texto "**Add a person**" ir buscando y añadiendo los miembros del equipo. ![Crear equipos](images/CrearEquipos-03.PNG)
+1. Navegar hasta la página del equipo "**administradores**" la organización recién creada. En el cuadro de texto "**Add a person**" ir buscando y añadiendo los miembros que se desee incorporar al equipo. ![Crear equipos](images/CrearEquipos-03.PNG)
 
 #### 3. Meter a github.com/asanzdiego y a otros 2 de vuestros compañeros de clase en el equipo **colaboradores**.
 
