@@ -226,7 +226,7 @@ Crear un index.html
 ```
     ### Página inicial de la organización
     **Creada por Juan Antonio  García Cuevas el 18 de mayo de 2016**
-    ![en construcción](http://deusolibre.com/imagenes/construccion.jpg)
+    ! [en construcción] (http://deusolibre.com/imagenes/construccion.jpg)
 ```
 ![Crear index.html](images/Index-05.PNG)
 
