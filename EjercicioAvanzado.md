@@ -238,9 +238,7 @@ directorio "**stylesheets**" adicionales.
 ![Crear index.html](images/Index-07.PNG)
 
 8.Ahora, ya podemos acceder directamente con la siguiente url, formada únicamente por "http://" seguido del nombre de la organización:
-```html
-    http://campusciff-juangarciaciff.github.io/
-```
+[http://campusciff-juangarciaciff.github.io/](http://campusciff-juangarciaciff.github.io/)
 ![Crear index.html](images/Index-08.PNG)
 
 Crear Pull-requests
