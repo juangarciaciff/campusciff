@@ -218,13 +218,15 @@ Crear un index.html
     ### Página inicial de la organización
     **Creada por Juan Antonio  García Cuevas el 18 de mayo de 2016**
     ![en construcción](http://deusolibre.com/imagenes/construccion.jpg)
-``` ![Crear index.html](images/Index-05.PNG)
+```
+ ![Crear index.html](images/Index-05.PNG)
 1. Después pulsamos el botón "**Continue to layouts**" que nos redirige a la página web, donde podemos cambiar el tema o estilo. Luego pulsamos el botón "**Publish page**". ![Crear index.html](images/Index-06.PNG)
 1. Con esto hemos terminado de crear la página index.html, con el archivo "**params.json**" y directorio "**stylesheets**" adicionales. ![Crear index.html](images/Index-07.PNG)
 1. Ahora, ya podemos acceder directamente con la siguiente url, formada únicamente por "http://" seguido del nombre de la organización:
 ```html
     http://campusciff-juangarciaciff.github.io/
-``` ![Crear index.html](images/Index-08.PNG)
+```
+ ![Crear index.html](images/Index-08.PNG)
 
 Crear Pull-requests
 ==================================================
