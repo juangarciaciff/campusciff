@@ -212,7 +212,8 @@ Crear un index.html
 1.Navegamos hasta la página de la organización "**campusciff-juangarciaciff**" y pulsamos en el botón "**Create a new repository**".
 ![Crear index.html](images/Index-01.PNG)
 
-2.En el cuadro de texto "**Repository name**" escribimos el nombre del repositorio, que debe ser, obligatoriamente, el nombre de la organización seguido de "**.github.io**": "**campusciff-juangarciaciff.github.io**". Luego pulsamos el botón "**Create repository**".
+2.En el cuadro de texto "**Repository name**" escribimos el nombre del repositorio, que debe ser, obligatoriamente, el nombre de la organización seguido de "**.github.io**": "**campusciff-juangarciaciff.github.io**" y pulsamos el botón "**Create repository**".
+
 ![Crear index.html](images/Index-02.PNG)
 
 3.En la página de repositorio que aparece, pulsamos en el tab "**Settings**".
@@ -232,7 +233,7 @@ Crear un index.html
 6.Después pulsamos el botón "**Continue to layouts**" que nos redirige a la página web, donde podemos cambiar el tema o estilo. Luego pulsamos el botón "**Publish page**".
 ![Crear index.html](images/Index-06.PNG)
 
-7. Con esto hemos terminado de crear la página index.html, con el archivo "**params.json**" y 
+7.Con esto hemos terminado de crear la página index.html, con el archivo "**params.json**" y 
 directorio "**stylesheets**" adicionales.
 ![Crear index.html](images/Index-07.PNG)
 
