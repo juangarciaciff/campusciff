@@ -207,8 +207,6 @@ Crear un index.html
 
 #### 1. Crear un index.html que se pueda ver como página web en la organización.
 
-Para realizar esta parte he seguido los siguientes pasos: 
-
 *Desde un navegador web*:
 
 1. Navegamos hasta la página de la organización "**campusciff-juangarciaciff**" y pulsamos en el botón "**Create a new repository**". ![Crear index.html](images/Index-01.PNG)
