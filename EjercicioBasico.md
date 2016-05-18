@@ -37,8 +37,8 @@ README
 *Desde línea de comandos*:
 
 ```bash
-    cd campusciff
-	touch > README.md 
+    cd campusciff     # Acceder al directorio del proyecto
+	touch > README.md # Crear un README.md fichero vacío
 ```
 
 > Notas: en este documento tendreis que ir poniendo los **comandos** que habéis tenido que utilizar durante todos los ejercicios y las **explicaciones y capturas de pantalla** que consideréis **necesarias**.
@@ -55,8 +55,8 @@ Commit inicial
 *Desde línea de comandos*:
 
 ```bash
-	git add README.md
-	git commit -m "Commit inicial"
+	git add README.md              # Añadir el fichero README.md al staging area
+	git commit -m "Commit inicial" # Subir los cambios al repositorio local
 ```
 
 Push inicial
