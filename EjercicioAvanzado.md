@@ -228,7 +228,7 @@ Para realizar esta parte he seguido los siguientes pasos:
 ```html
     http://campusciff-juangarciaciff.github.io/
 ```
-
+![Crear index.html](images/Index-07.PNG)
 
 Crear Pull-requests
 ==================================================
