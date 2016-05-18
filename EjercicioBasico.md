@@ -21,17 +21,10 @@ Repositorio campusciff
 
 *Desde línea de comandos*:
 
-- Crear un nuevo directorio llamado "**ejerciciosgit**"
 ```bash
-    mkdir ejerciciosgit
-```
-- Acceder al nuevo directorio"**ejerciciosgit**"
-```bash
-    cd ejerciciosgit
-```
-- Clonar el repositorio remoto "**campusciff**"
-```bash
-    git clone git@github.com:juangarciaciff/campusciff.git
+    mkdir ejerciciosgit                                    # Crear un nuevo directorio llamado ejerciciosgit
+    cd ejerciciosgit                                       # Acceder al directorio ejerciciosgit
+    git clone git@github.com:juangarciaciff/campusciff.git # Clonar el repositorio remoto campusciff
 ```
 
 ![Clonar repositorio](images/ClonarRepositorio.PNG)
@@ -45,7 +38,7 @@ README
 
 ```bash
     cd campusciff
-	echo "" > README.md 
+	touch > README.md 
 ```
 
 > Notas: en este documento tendreis que ir poniendo los **comandos** que habéis tenido que utilizar durante todos los ejercicios y las **explicaciones y capturas de pantalla** que consideréis **necesarias**.
@@ -85,7 +78,7 @@ Ignorar archivos
 *Desde línea de comandos*:
 
 ```bash
-	echo "" > privado.txt
+	touch privado.txt
 ```
 
 #### 2. Crear en el repositorio local una carpeta llamada privada. 
@@ -106,7 +99,7 @@ Ignorar archivos
 	echo "privada/*" > .gitignore
 ```
 
-> Nota: he añadido "*~"
+> Nota: he añadido "*~" para ignorar tambiñen estos ficheros
 
 Añadir fichero 1.txt
 ==================================================
