@@ -15,16 +15,16 @@ Repositorio campusciff
 
 1. Acceder al sitio web de **GitHub** y logarse con usuario y contraseña: <https://github.com/>.
 1. Acceder a la página "**Create a new repository**" a través de la opción "**New repository**" del menú desplegable "**+**" situado en la parte superior derecha de la pantalla.
-1. Escribir el nombre del repositorio (**campusciff**) en el cuadro de texto "**Repository name**" y pulsar "**Create repository**".![Crear repositorio](images/CrearRepositorio.PNG)
+1. Escribir el nombre del repositorio (**campusciff**) en el cuadro de texto "**Repository name**" y pulsar "**Create repository**". ![Crear repositorio](images/CrearRepositorio.PNG)
 
 #### 2. Clonar vuestro repositorio en local. 
 
 *Desde línea de comandos*:
 
 ```bash
-    mkdir ejerciciosgit                                    # Crear un nuevo directorio llamado ejerciciosgit
-    cd ejerciciosgit                                       # Acceder al directorio ejerciciosgit
-    git clone git@github.com:juangarciaciff/campusciff.git # Clonar el repositorio remoto campusciff
+    mkdir ejerciciosgit
+    cd ejerciciosgit
+    git clone git@github.com:juangarciaciff/campusciff.git
 ```
 
 ![Clonar repositorio](images/ClonarRepositorio.PNG)
@@ -37,8 +37,8 @@ README
 *Desde línea de comandos*:
 
 ```bash
-    cd campusciff     # Acceder al directorio del proyecto
-	touch > README.md # Crear un README.md fichero vacío
+    cd campusciff
+	touch > README.md
 ```
 
 > Notas: en este documento tendreis que ir poniendo los **comandos** que habéis tenido que utilizar durante todos los ejercicios y las **explicaciones y capturas de pantalla** que consideréis **necesarias**.
@@ -55,8 +55,8 @@ Commit inicial
 *Desde línea de comandos*:
 
 ```bash
-	git add README.md              # Añadir el fichero README.md al staging area
-	git commit -m "Commit inicial" # Subir los cambios al repositorio local
+	git add README.md
+	git commit -m "Commit inicial"
 ```
 
 Push inicial
@@ -240,6 +240,4 @@ Colaboradores
 1. Acceder a la opción de menú "**Collaborators**".
 1. Escribir (o buscar) "**asanzdiego**" en el cuadro de texto "**Search by username, full name or email address**". ![Agregando colaborador](images/AgregarColaborador-01.PNG)
 1. Pulsar el botón "**Add collaborator**". ![Colaborador agregado](images/AgregarColaborador-02.PNG)
-
-:+1:
 
