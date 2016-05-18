@@ -210,8 +210,7 @@ Crear un index.html
 *Desde un navegador web*:
 
 1. Navegamos hasta la página de la organización "**campusciff-juangarciaciff**" y pulsamos en el botón "**Create a new repository**". ![Crear index.html](images/Index-01.PNG)
-1. En el cuadro de texto "**Repository name**" escribimos el nombre del repositorio, que debe ser, obligatoriamente, el nombre de la organización seguido de "**.github.io**": "**campusciff-juangarciaciff.github.io**". Luego pulsamos el botón "**Create repository**".
-![Crear index.html](images/Index-02.PNG)
+1. En el cuadro de texto "**Repository name**" escribimos el nombre del repositorio, que debe ser, obligatoriamente, el nombre de la organización seguido de "**.github.io**": "**campusciff-juangarciaciff.github.io**". Luego pulsamos el botón "**Create repository**". ![Crear index.html](images/Index-02.PNG)
 1. En la página de repositorio que aparece, pulsamos en el tab "**Settings**". ![Crear index.html](images/Index-03.PNG)
 1. En la página de configuración del repositorio pulsamos el botón "**Launch automatic page generator**". ![Crear index.html](images/Index-04.PNG)
 1. En la nueva página podemos modificar el contenido de la página HTML en el campo "**Body**", empleando sintaxis Makdown, añadiendo al inicio el siguiente código:
@@ -219,17 +218,13 @@ Crear un index.html
     ### Página inicial de la organización
     **Creada por Juan Antonio  García Cuevas el 18 de mayo de 2016**
     ![en construcción](http://deusolibre.com/imagenes/construccion.jpg)
-```
-![Crear index.html](images/Index-05.PNG)
-
-6. Después pulsamos el botón "**Continue to layouts**" que nos redirige a la página web, donde podemos cambiar el tema o estilo. Luego pulsamos el botón "**Publish page**". ![Crear index.html](images/Index-06.PNG)
-
-7. Con esto hemos terminado de crear la página index.html, con el archivo "**params.json**" y directorio "**stylesheets**" adicionales. ![Crear index.html](images/Index-07.PNG)
-8. Ahora, ya podemos acceder directamente con la siguiente url, formada únicamente por "http://" seguido del nombre de la organización:
+``` ![Crear index.html](images/Index-05.PNG)
+1. Después pulsamos el botón "**Continue to layouts**" que nos redirige a la página web, donde podemos cambiar el tema o estilo. Luego pulsamos el botón "**Publish page**". ![Crear index.html](images/Index-06.PNG)
+1. Con esto hemos terminado de crear la página index.html, con el archivo "**params.json**" y directorio "**stylesheets**" adicionales. ![Crear index.html](images/Index-07.PNG)
+1. Ahora, ya podemos acceder directamente con la siguiente url, formada únicamente por "http://" seguido del nombre de la organización:
 ```html
     http://campusciff-juangarciaciff.github.io/
-```
-![Crear index.html](images/Index-08.PNG)
+``` ![Crear index.html](images/Index-08.PNG)
 
 Crear Pull-requests
 ==================================================
