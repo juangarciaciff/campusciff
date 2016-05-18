@@ -21,6 +21,15 @@ Repositorio campusciff
 
 *Desde línea de comandos*:
 
+- Crear un nuevo directorio llamado "**ejerciciosgit**"
+```bash
+    mkdir ejerciciosgit
+```
+- Acceder al nuevo directorio"**ejerciciosgit**"
+```bash
+    cd ejerciciosgit
+```
+- Clonar el repositorio remoto "**campusciff**"
 ```bash
     git clone git@github.com:juangarciaciff/campusciff.git
 ```
