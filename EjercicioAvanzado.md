@@ -17,11 +17,15 @@ Crear una rama v0.2
 
 #### 1. Crear una rama **v0.2**.
 
+*Desde línea de comandos*:
+
 ```bash
     git branch v0.2
 ```
 
 #### 2. Posiciona tu carpeta de trabajo en esta rama.
+
+*Desde línea de comandos*:
 
 ```bash
     git checkout v0.2
@@ -32,6 +36,8 @@ Añadir fichero 2.txt
 
 #### 1. Añadir un fichero **2.txt** en la rama **v0.2**.
 
+*Desde línea de comandos*:
+
 ```bash
     echo "Fichero 2" > 2.txt
 ```
@@ -40,6 +46,8 @@ Crear rama remota v0.2
 ==================================================
 
 #### 1. Subir los cambios al reposiorio remoto.
+
+*Desde línea de comandos*:
 
 ```bash
     git add -A
@@ -52,11 +60,15 @@ Merge directo
 
 #### 1. Posicionarse en la rama **master**.
 
+*Desde línea de comandos*:
+
 ```bash
     git checkout master
 ```
 
 #### 2. Hacer un merge de la rama **v0.2** en la rama **master**.
+
+*Desde línea de comandos*:
 
 ```bash
     git merge v0.2 -m "Se hace merge de la rama v0.2 en master"
@@ -67,6 +79,8 @@ Merge con conflicto
 
 #### 1. En la rama **master** poner **Hola** en el fichero **1.txt** y hacer commit.
 
+*Desde línea de comandos*:
+
 ```bash
     git checkout master
     echo "Hola" >> 1.txt
@@ -75,6 +89,8 @@ Merge con conflicto
 ```
 
 #### 2. Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer commit.
+
+*Desde línea de comandos*:
 
 ```bash
     git checkout v0.2
@@ -85,11 +101,12 @@ Merge con conflicto
 
 #### 3. Posicionarse de nuevo en la rama **master** y hacer un merge con la rama **v0.2**
 
+*Desde línea de comandos*:
+
 ```bash
     git checkout master
     git merge v0.2 -m "Se hace un nuevo merge de la rama v0.2 en master, con errores"
 ```
-
 ![Merge con conflicto](images/MergeConflicto.PNG)
 
 Listado de ramas
@@ -97,11 +114,12 @@ Listado de ramas
 
 #### 1. Listar las ramas con merge y las ramas sin merge.
 
+*Desde línea de comandos*:
+
 ```bash
     git branch --merged
     git branch --no-merged
 ```
-
 ![Ramas con merge y sin merge](images/MergeRamas.PNG)
 
 Arreglar conflicto
@@ -109,11 +127,12 @@ Arreglar conflicto
 
 #### 1. Arreglar el conflicto anterior y hacer un commit.
 
+*Primero editamos el fichero "1.txt" y hacemos las correcciones pertinentes. Después, desde línea de comandos*:
+
 ```bash
     git add -A
     git commit -m "Subimos las correcciones al merge fallido"
 ```
-
 ![Merge corregido](images/MergeCorregido-01.PNG)
 
 Borrar rama
@@ -122,7 +141,7 @@ Borrar rama
 #### 1. Crear un tag **v0.2**
 
 ```bash
-    git tag v0.2 -m "Asignando versión v0.2 a la rama rincipal"
+    git tag v0.2 -m "Asignando versión v0.2 a la rama principal"
 ```
 
 #### 2. Borrar la rama **v0.2**
@@ -147,23 +166,27 @@ Crear una organización
 
 #### 1. Crear una organización llamada **campusciff-tunombredeusuariodegithub**
 
+1. Pulsar en el icono "**+**" en el lado superior derecho de la ppantalla y seleccionar "**New organization**".
+1. Introducir **campusciff-juangarciaciff** en el cuadro de texto "**Organization name**".
+1. Introducir **juangarcia@campusciff.net** en el cuadro de texto "**Billing email**".
+1. Pulsar sobre el botón "**Create organization**". ![Crear organizacion](images/CrearOrganizacion-01.PNG)
+1. En la nueva pantalla pulsar "**Finish**". ![Crear organizacion](images/CrearOrganizacion-02.PNG)
+
 Crear equipos
 ==================================================
 
 #### 1. Crear 2 equipos en la organización **campusciff-tunombredeusuariodegithub**, uno llamado **administradores** con más permisos y otro **colaboradores** con menos permisos.
 
-1. Pulsar en el icono "**+**" en el lado superior derecho y seleccionar "**New organization**".
-1. Introducir **campusciff-juangarciaciff** en el cuadro de texto "**Organization name**"
-1. Introducir **juangarcia@campusciff.net** en el cuadro de texto "**Billing email**"
-1. Pulsar sobrre el botón "**Create organization**"
-
-![Crear organizacion](images/CrearOrganizacion-01.PNG)
+1. En la úlima pantalla acceder al tab "**Teams**" y pulsar sobre el botón "**Create a new team**" de la nueva pantalla. ![Crear equipos](images/CrearEquipos-01.PNG)
+1. En el formulario introducir "**administradores**" en el campo "**Team name**" y pulsar sobre el botón "**Create team**". ![Crear equipos](images/CrearEquipos-02.PNG)
+1. Seleccionar el equipo "**administradores**" y pulsar en el botón "**Settings**". Se abre una nueva pantalla, en la que hay que pulsr sobre el tab "**Settings**". Luego en la opción de menú "**Members privileges**". Allí, seleccionar el permiso "**Admin**" y pulsar el botón "**Save**". ![Crear equipos](images/AsignarPermisos-01.PNG)
+1. Repetir la operación para crear el equipo de colaboradores, pero esta vez asignando el permiso "**Write**".
 
 #### 2. Meter a github.com/asanzdiego y a 2 de vuestros compañeros de clase en el equipo **administradores**.
 
-1. Desde la página de Perfil de usuario acceder a la organización recién creada.
+1. Desde la página de Perfil de usuario acceder a la organización "**administradores**".
 1. En la pantalla que se abre pulsar en el Tab "**Teams**" y luego en el botón "**Create a new team**".
-1. En el formulario que se abre escribir "**Administradores**" en el cuadro de texto "**Team name**" y pulsar el botón "**Create team**".
+1. En el formulario que se abre escribir "**Administradores**" en el cuadro de texto "**Team name**" y pulsar el botón "**Create team**". Repetir la operación para todos los miembros del equipo.  ![Crear organizacion](images/CrearOrganizacion-03.PNG)
 
 #### 3. Meter a github.com/asanzdiego y a otros 2 de vuestros compañeros de clase en el equipo **colaboradores**.
 

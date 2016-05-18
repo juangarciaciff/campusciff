@@ -4,8 +4,6 @@ Ejercicio práctico sobre la utilización básica de Git, GitHub y Markdown
 - Alumno: **Juan Antonio García Cuevas**
 - Fecha.: 16/05/2016
 
-![En construcción](http://deusolibre.com/imagenes/construccion.jpg)
-
 Repositorio campusciff
 ==================================================
 
