@@ -222,7 +222,7 @@ Crear un index.html
 4.En la página de configuración del repositorio pulsamos el botón "**Launch automatic page generator**".
 ![Crear index.html](images/Index-04.PNG)
 
-5.En la nueva página podemos modificar el contenido de la página HTML en el campo "**Body**", empleando sintaxis Makdown, añadiendo al inicio el siguiente código:
+5.En la nueva página podemos modificar el contenido de la página HTML en el campo "**Body**", empleando sintaxis Makdown, por ejemplo añadiendo al inicio el siguiente código:
 ```
     ### Página inicial de la organización
     **Creada por Juan Antonio  García Cuevas el 18 de mayo de 2016**
