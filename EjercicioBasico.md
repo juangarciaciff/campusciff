@@ -91,8 +91,8 @@ Ignorar archivos
 
 ```bash
 	echo "*~" > .gitignore
-	echo "privado.txt" > .gitignore
-	echo "privada/*" > .gitignore
+	echo "privado.txt" >> .gitignore
+	echo "privada/*" >> .gitignore
 ```
 
 > Nota: he añadido "*~"
