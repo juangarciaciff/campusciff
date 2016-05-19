@@ -48,7 +48,7 @@ Commit inicial
 
 *Desde el escritorio de Ubuntu*:
 
-- Editar y modificar el archivo README.md.
+- Abrir el archivo **README.md** con un editor de texto, añadir las líneas de texto y guardarlo.
 
 *Desde línea de comandos*:
 
@@ -93,11 +93,11 @@ Ignorar archivos
 
 ```bash
 	echo "*~" > .gitignore
-	echo "privado.txt" > .gitignore
-	echo "privada/*" > .gitignore
+	echo "privado.txt" >> .gitignore
+	echo "privada/*" >> .gitignore
 ```
 
-> Nota: he añadido "*~" para ignorar tambiñen estos ficheros
+> Nota: he añadido "*~" para ignorar también estos ficheros temporales.
 
 Añadir fichero 1.txt
 ==================================================

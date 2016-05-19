@@ -4,8 +4,6 @@ Ejercicio práctico sobre la utilización avanzada de Git, GitHub y Markdown
 - Alumno: **Juan Antonio García Cuevas**
 - Fecha.: 16/05/2016
 
-![En construcción](http://deusolibre.com/imagenes/construccion.jpg)
-
 Notas
 ==================================================
 
@@ -200,6 +198,8 @@ Crear equipos
 
 #### 3. Meter a github.com/asanzdiego y a otros 2 de vuestros compañeros de clase en el equipo **colaboradores**.
 
+*Desde un navegador web*:
+
 1. Repetir la operación anterior para añadir miembros al equipo "**colaboradores**".
 
 Crear un index.html
@@ -258,14 +258,20 @@ Crear Pull-requests
 
 #### 2. Crearos una rama en cada fork.
 
+*Desde un navegador web*:
+
 1. Creamos una nueva rama llamada, por ejemplo, "**ramaforkaraceli**" en el desplegable "**Branch:...**". ![Lista de followers](images/Fork-04.PNG)
 
 #### 3. En cada rama modificar el fichero **index.html** añadiendo vuestro nombre.
+
+*Desde un navegador web*:
 
 1. Con la acción anterior hemos quedado directamente en la rama recién creada. Pulsamos el botón "**Create new file**", asignamos el nombre de fichero "**juan_garcia.md**", añadimos al contenido del fichero un texto con nuestro nombre y pulsamos el botón "**Commit new file**". ![Lista de followers](images/Fork-05.PNG)
 1. El resultado es el siguiente. ![Lista de followers] (images/Fork-06.PNG)
 
 #### 4. Con cada rama hacer un pull-request.
+
+*Desde un navegador web*:
 
 1. Desde la rama, pulsar el botón "**New pull request**", escribir un mensaje y pulsar el botón "**Create pull request**". ![Pull request](images/Pull-01.PNG)
 
