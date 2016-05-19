@@ -267,7 +267,7 @@ Crear Pull-requests
 
 #### 4. Con cada rama hacer un pull-request.
 
-1. Desde la rama, pulsar el botón "**New pull request**". ![Pull request](images/Pull-01.PNG)
+1. Desde la rama, pulsar el botón "**New pull request**", escribir un mensaje y pulsar el botón "**Create pull request**". ![Pull request](images/Pull-01.PNG)
 
 Gestionar Pull-requests
 ==================================================
