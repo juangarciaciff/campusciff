@@ -248,22 +248,26 @@ Crear Pull-requests
 
 #### 1. Hacer 2 forks de 2 repositorios **campusciff-tunombredeusuariodegithub.github.io** de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
 
+> NOTA: cuando realicé este ejercicio no encontré ningún ningún repositorio de las características indicadas, por lo que opté por añadir un fichero a otro repositorio de uno de los compañeros del curso.
+
 *Desde un navegador web*:
 
-1. Navegar hasta mi lista de *followers*. ![Lista de followers](/images/Fork-01.PNG)
-1. Acceder a la página GitHub de un follower determinado, navegar hasta su repositorio "**campusciff**", pulsar el botón "**Fork**" y seleccionar dónde queremos guardar la copia del repositorio. ![Lista de followers](/images/Fork-02.PNG)
-1. Ya tenemos una copia en nuestra cuenta de usuario. ![Lista de followers](/images/Fork-03.PNG)
+1. Navegar hasta mi lista de *followers*. ![Lista de followers](images/Fork-01.PNG)
+1. Acceder a la página GitHub de un follower determinado, navegar hasta su repositorio "**campusciff**", pulsar el botón "**Fork**" y seleccionar dónde queremos guardar la copia del repositorio. ![Lista de followers](/mages/Fork-02.PNG)
+1. Ya tenemos una copia en nuestra cuenta de usuario. ![Lista de followers](images/Fork-03.PNG)
 
 #### 2. Crearos una rama en cada fork.
 
-1. Creamos una nueva rama llamada, por ejemplo, "**ramaforkaraceli**" en el desplegable "**Branch:...**". ![Lista de followers](/images/Fork-04.PNG)
+1. Creamos una nueva rama llamada, por ejemplo, "**ramaforkaraceli**" en el desplegable "**Branch:...**". ![Lista de followers](images/Fork-04.PNG)
 
 #### 3. En cada rama modificar el fichero **index.html** añadiendo vuestro nombre.
 
-1. Con la acción anterior hemos quedado directamente en la rama creada. Editamos el archivo "**README.md**", añadimos nuestro nombre y pulsamos el botón "**Commit changes**". ![Lista de followers](/images/Fork-05.PNG)
-1. El resultado es el siiguiente. ![Lista de followers](/images/Fork-06.PNG)
+1. Con la acción anterior hemos quedado directamente en la rama creada. Editamos el archivo "**README.md**", añadimos nuestro nombre y pulsamos el botón "**Commit changes**". ![Lista de followers](images/Fork-05.PNG)
+1. El resultado es el siguiente. ![Lista de followers (images/Fork-06.PNG)
 
 #### 4. Con cada rama hacer un pull-request.
+
+1. Desde la rama, pulsar el botón "**New pull request**". ![Pull request](images/Pull-01.PNG)
 
 Gestionar Pull-requests
 ==================================================
