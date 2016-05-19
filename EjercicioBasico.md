@@ -20,8 +20,6 @@ Repositorio campusciff
 *Desde línea de comandos*:
 
 ```bash
-    mkdir ejerciciosgit
-    cd ejerciciosgit
     git clone git@github.com:juangarciaciff/campusciff.git
 ```
 
@@ -36,7 +34,7 @@ README
 
 ```bash
     cd campusciff
-	touch > README.md
+	echo "" > README.md 
 ```
 
 > Notas: en este documento tendreis que ir poniendo los **comandos** que habéis tenido que utilizar durante todos los ejercicios y las **explicaciones y capturas de pantalla** que consideréis **necesarias**.
@@ -76,7 +74,7 @@ Ignorar archivos
 *Desde línea de comandos*:
 
 ```bash
-	touch privado.txt
+	echo "" > privado.txt
 ```
 
 #### 2. Crear en el repositorio local una carpeta llamada privada. 
@@ -97,7 +95,7 @@ Ignorar archivos
 	echo "privada/*" >> .gitignore
 ```
 
-> Nota: he añadido "*~" para ignorar tambiñen estos ficheros
+> Nota: he añadido "*~"
 
 Añadir fichero 1.txt
 ==================================================
@@ -222,7 +220,7 @@ Crear una tabla
 | Jorge Maza de Julián            | [jorgemaza](https://github.com/jorgemaza)         |
 | José Luis González Blázquez     |                   |
 | Juan Antonio García Cuevas      | [juangarciaciff](https://github.com/juangarciaciff)    |
-| Juan Isidro Rodríguez Granados  |                   |
+| Juan Isidro Rodríguez Granados  | [juanrodriguez16](https://github.com/juanrodriguez16)   |
 | Mark Wellings                   | [Mark-Wellings](https://github.com/Mark-Wellings)     |
 | Sergio Castro Rodriguez         |                   |
 
@@ -238,4 +236,6 @@ Colaboradores
 1. Acceder a la opción de menú "**Collaborators**".
 1. Escribir (o buscar) "**asanzdiego**" en el cuadro de texto "**Search by username, full name or email address**". ![Agregando colaborador](images/AgregarColaborador-01.PNG)
 1. Pulsar el botón "**Add collaborator**". ![Colaborador agregado](images/AgregarColaborador-02.PNG)
+
+:+1:
 
