@@ -88,7 +88,7 @@ Ignorar archivos
 #### 3. Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git. 
 
 *Desde línea de comandos*:
-
+ 
 ```bash
 	echo "*~" > .gitignore
 	echo "privado.txt" >> .gitignore
