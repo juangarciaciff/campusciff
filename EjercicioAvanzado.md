@@ -246,9 +246,9 @@ directorio "**stylesheets**" adicionales.
 Crear Pull-requests
 ==================================================
 
-#### 1. Hacer 2 forks de 2 repositorios **campusciff-tunombredeusuariodegithub.github.io** de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
+> NOTA: cuando realicé este ejercicio no encontré ningún repositorio de las características indicadas, por lo que, para podr terminar el ejercicio, opté por añadir un nuevo fichero a otro repositorio de uno de los compañeros del curso.
 
-> NOTA: cuando realicé este ejercicio no encontré ningún repositorio de las características indicadas, por lo que opté por añadir un nuevo fichero a otro repositorio de uno de los compañeros del curso.
+#### 1. Hacer 2 forks de 2 repositorios **campusciff-tunombredeusuariodegithub.github.io** de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
 
 *Desde un navegador web*:
 
@@ -263,7 +263,7 @@ Crear Pull-requests
 #### 3. En cada rama modificar el fichero **index.html** añadiendo vuestro nombre.
 
 1. Con la acción anterior hemos quedado directamente en la rama recién creada. Pulsamos el botón "**Create new file**", asignamos el nombre de fichero "**juan_garcia.md**", añadimos al contenido del fichero un texto con nuestro nombre y pulsamos el botón "**Commit new file**". ![Lista de followers](images/Fork-05.PNG)
-1. El resultado es el siguiente. ![Lista de followers (images/Fork-06.PNG)
+1. El resultado es el siguiente. ![Lista de followers] (images/Fork-06.PNG)
 
 #### 4. Con cada rama hacer un pull-request.
 
@@ -273,3 +273,5 @@ Gestionar Pull-requests
 ==================================================
 
 #### 1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
+
+> NOTA: hasta el momento no he recibido ninguna petición de pull-request.
