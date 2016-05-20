@@ -50,7 +50,7 @@ Crear rama remota v0.2
 ```bash
     git add -A
     git commit -m "Se añade el fichero 2.txt a la rama v2.0"
-    git push
+    git push --set-upstream origin v0.2
 ```
 
 Merge directo
@@ -125,7 +125,28 @@ Arreglar conflicto
 
 #### 1. Arreglar el conflicto anterior y hacer un commit.
 
-*Primero editamos el fichero "**1.txt**" y hacemos las correcciones pertinentes. Después, desde línea de comandos*:
+*Editamos el fichero "**1.txt**" y hacemos las correcciones pertinentes.*:
+
+Antes:
+
+```bash
+    Fichero 2
+    <<<<<<< HEAD
+    Hola
+    =======
+    Adios
+    >>>>>>> v0.2
+```bash
+
+Después:
+
+```bash
+    Fichero 2
+    Hola
+    Adios
+```bash
+  
+*desde línea de comandos*:
 
 ```bash
     git add -A
