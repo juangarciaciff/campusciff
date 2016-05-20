@@ -275,6 +275,14 @@ Crear Pull-requests
 
 1. Desde la rama, pulsar el botón "**New pull request**", escribir un mensaje y pulsar el botón "**Create pull request**". ![Pull request](images/Pull-01.PNG)
 
+
+> NOTA: añado una nueva versióon por llínea de comandos
+
+```bash
+
+```
+
+
 Gestionar Pull-requests
 ==================================================
 
@@ -282,17 +290,16 @@ Gestionar Pull-requests
 
 > NOTA: hasta el momento no he recibido ninguna petición de pull-request. Incluyo la lista de comandos pero sin especificar el nombre de la rama del usuario coaborador (<rama_de_usuario_colaborador>) ni el código de Pull Request (<pr-codigo_de_pull_request>)
 
-
 *Desde línea de comandos*:
 
 ```bash
     # Cambiar a la rama master y descargar los cambios del repositorio remoto
-    # (aún no se aplicarán cambios a ningún archivo),
+    # (aún no se aplicarán cambios a ningún archivo).
     git checkout master
     git fetch origin
     
     # Eliminar cualquier cambio en local y sobreescribirlo con los cambios del repositorio remoto.
-    # Así, local el repositorio tendrá lo mismo que el repositorio remoto (un punto de partida seguro).
+    # Así, el repositorio local tendrá lo mismo que el repositorio remoto (un punto de partida seguro).
     git reset --hard origin/master
     
     # Descargar los cambios contenidos en el Pull Request con número <pr-codigo_de_pull_request>
@@ -302,10 +309,11 @@ Gestionar Pull-requests
     # Crear una nueva rama (<rama_de_usuario_colaborador>) para contener los cambios del Pull Request.
     git checkout -b <rama_de_usuario_colaborador> FETCH_HEAD
     
-    # Hacer que el commit por el que comienza la rama recién creada sea el último commit que existía en master. 
+    # Hacer que el commit por el que comienza la rama recién creada sea el último commit en el master. 
     git rebase master
     
-    # Comprobar visualmente las mejoras o cambios
+    # Comprobar las mejoras o cambios 
+    git log -p -2
     
     # Incorporar los cambios a la rama master para que formen parte del código de nuestro proyecto.
     git checkout master
@@ -313,6 +321,9 @@ Gestionar Pull-requests
     
     # Subir los cambios al repositorio remoto
     git push origin master
+    
+    # Eliminar la rama
+    git branch -d <rama_de_usuario_colaborador>
 ```
 
 
