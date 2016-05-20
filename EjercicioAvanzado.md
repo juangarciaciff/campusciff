@@ -218,7 +218,7 @@ Crear equipos
 1. Navegar hasta la página del equipo "**administradores**" la organización recién creada. En el cuadro de texto "**Add a person**" ir buscando y añadiendo los miembros que se desee incorporar al equipo. ![Crear equipos](images/CrearEquipos-03.PNG)
 
 #### 3. Meter a github.com/asanzdiego y a otros 2 de vuestros compañeros de clase en el equipo **colaboradores**.
-
+llí
 *Desde un navegador web*:
 
 1. Repetir la operación anterior para añadir miembros al equipo "**colaboradores**".
@@ -297,7 +297,7 @@ Crear Pull-requests
 1. Desde la rama, pulsar el botón "**New pull request**", escribir un mensaje y pulsar el botón "**Create pull request**". ![Pull request](images/Pull-01.PNG)
 
 
-> NOTA: añado una nueva versióon por llínea de comandos
+> NOTA: añado una nueva versión por línea de comandos
 
 ```bash
 
@@ -309,7 +309,7 @@ Gestionar Pull-requests
 
 #### 1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
 
-> NOTA: hasta el momento no he recibido ninguna petición de pull-request. Incluyo la lista de comandos pero sin especificar el nombre de la rama del usuario coaborador (<rama_de_usuario_colaborador>) ni el código de Pull Request (<pr-codigo_de_pull_request>)
+> NOTA: hasta el momento no he recibido ninguna petición de pull-request. Incluyo la lista de comandos pero sin especificar el nombre de la rama del usuario coaborador  rama_de_usuario_colaborador) ni el código de Pull Request (codigo_de_pull_request)
 
 *Desde línea de comandos*:
 
