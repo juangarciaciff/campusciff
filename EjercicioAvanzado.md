@@ -300,7 +300,7 @@ Crear Pull-requests
 > NOTA: añado una nueva versión por línea de comandos
 
 ```bash
-
+    ... pendiente ...
 ```
 
 
@@ -346,5 +346,4 @@ Gestionar Pull-requests
     # Eliminar la rama
     git branch -d <rama_de_usuario_colaborador>
 ```
-
 
