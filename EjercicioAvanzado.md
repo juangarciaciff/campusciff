@@ -280,4 +280,39 @@ Gestionar Pull-requests
 
 #### 1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
 
-> NOTA: hasta el momento no he recibido ninguna petición de pull-request.
+> NOTA: hasta el momento no he recibido ninguna petición de pull-request. Incluyo la lista de comandos pero sin especificar el nombre de la rama del usuario coaborador (<rama_de_usuario_colaborador>) ni el código de Pull Request (<pr-codigo_de_pull_request>)
+
+
+*Desde línea de comandos*:
+
+```bash
+    # Cambiar a la rama master y descargar los cambios del repositorio remoto
+    # (aún no se aplicarán cambios a ningún archivo),
+    git checkout master
+    git fetch origin
+    
+    # Eliminar cualquier cambio en local y sobreescribirlo con los cambios del repositorio remoto.
+    # Así, local el repositorio tendrá lo mismo que el repositorio remoto (un punto de partida seguro).
+    git reset --hard origin/master
+    
+    # Descargar los cambios contenidos en el Pull Request con número <pr-codigo_de_pull_request>
+    # (que podría ser por ejemplo el 50).
+    git fetch origin refs/pull/<codigo_de_pull_request>/head
+    
+    # Crear una nueva rama (<rama_de_usuario_colaborador>) para contener los cambios del Pull Request.
+    git checkout -b <rama_de_usuario_colaborador> FETCH_HEAD
+    
+    # Hacer que el commit por el que comienza la rama recién creada sea el último commit que existía en master. 
+    git rebase master
+    
+    # Comprobar visualmente las mejoras o cambios
+    
+    # Incorporar los cambios a la rama master para que formen parte del código de nuestro proyecto.
+    git checkout master
+    git merge --no-ff <rama_de_usuario_colaborador>
+    
+    # Subir los cambios al repositorio remoto
+    git push origin master
+```
+
+
