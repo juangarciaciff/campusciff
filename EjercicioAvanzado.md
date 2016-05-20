@@ -136,7 +136,7 @@ Antes:
     =======
     Adios
     >>>>>>> v0.2
-```bash
+```
 
 Después:
 
@@ -144,9 +144,9 @@ Después:
     Fichero 2
     Hola
     Adios
-```bash
+```
   
-*desde línea de comandos*:
+*Desde línea de comandos*:
 
 ```bash
     git add -A
