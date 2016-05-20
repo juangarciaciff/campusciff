@@ -127,7 +127,7 @@ Arreglar conflicto
 
 *Editamos el fichero "**1.txt**" y hacemos las correcciones pertinentes.*:
 
-Antes:
+- Antes:
 
 ```bash
     Fichero 2
@@ -138,7 +138,7 @@ Antes:
     >>>>>>> v0.2
 ```
 
-Después:
+- Después:
 
 ```bash
     Fichero 2
