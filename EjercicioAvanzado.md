@@ -130,7 +130,7 @@ Arreglar conflicto
 - Antes:
 
 ```bash
-    Fichero 2
+    Fichero 1
     <<<<<<< HEAD
     Hola
     =======
@@ -141,7 +141,7 @@ Arreglar conflicto
 - Después:
 
 ```bash
-    Fichero 2
+    Fichero 1
     Hola
     Adios
 ```
