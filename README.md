@@ -222,7 +222,7 @@ Crear una tabla
 | Jorge Maza de Julián            | [jorgemaza](https://github.com/jorgemaza)         |
 | José Luis González Blázquez     |                   |
 | Juan Antonio García Cuevas      | [juangarciaciff](https://github.com/juangarciaciff)    |
-| Juan Isidro Rodríguez Granados  |                   |
+| Juan Isidro Rodríguez Granados  | [juanrodriguez16](https://github.com/juanrodriguez16)   |
 | Mark Wellings                   | [Mark-Wellings](https://github.com/Mark-Wellings)     |
 | Sergio Castro Rodriguez         |                   |
 
