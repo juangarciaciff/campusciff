@@ -309,6 +309,20 @@ Gestionar Pull-requests
 
 #### 1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
 
+
+
+1. Recibimos un email del colaborador que ha realizado el Pull-Request. ![Email pull-request](images/AceptarPullRequest-01.PNG)
+1. Accedemos al repositorio de nuestra cuenta de GitHub dese un navegador o directamente pulsando en el enlace del email, y pulsamos en el tab "**Pull request (1)**". ![Pull-request](images/AceptarPullRequest-02.PNG)
+1. Accedemos al enlace "**Update index.html**", correspondiente a las modificaciones realizadas por el colaborador. ![Pull-request](images/AceptarPullRequest-03.PNG)
+1. Comprobamos las modificaciones realizadas por el colaboador en el fichero index.html pulsando sobre el enlace "**Update index.html ...**" ![Ver pull-request](images/AceptarPullRequest-04.PNG)
+1. Regresamos a la pantalla anterior y aceptamos las modificaciones pulsando sobre el botón "**Merge pull request**". ![Merge pull-request](images/AceptarPullRequest-05.PNG)
+1. Y confirmamos el merge.  ![Merge pull-request](images/AceptarPullRequest-06.PNG)
+1. Resultando esta nueva pantalla.  ![Merge pull-request](images/AceptarPullRequest-07.PNG)
+
+
+
+
+
 > NOTA: hasta el momento no he recibido ninguna petición de pull-request. Incluyo la lista de comandos pero sin especificar el nombre de la rama del usuario coaborador  rama_de_usuario_colaborador) ni el código de Pull Request (codigo_de_pull_request)
 
 *Desde línea de comandos*:
