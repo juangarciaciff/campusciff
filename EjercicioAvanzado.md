@@ -317,47 +317,5 @@ Gestionar Pull-requests
 1. Comprobamos las modificaciones realizadas por el colaboador en el fichero index.html pulsando sobre el enlace "**Update index.html ...**" ![Ver pull-request](images/AceptarPullRequest-04.PNG)
 1. Regresamos a la pantalla anterior y aceptamos las modificaciones pulsando sobre el botón "**Merge pull request**". ![Merge pull-request](images/AceptarPullRequest-05.PNG)
 1. Y confirmamos el merge.  ![Merge pull-request](images/AceptarPullRequest-06.PNG)
-1. Resultando esta nueva pantalla.  ![Merge pull-request](images/AceptarPullRequest-07.PNG)
-
-
-
-
-
-> NOTA: hasta el momento no he recibido ninguna petición de pull-request. Incluyo la lista de comandos pero sin especificar el nombre de la rama del usuario coaborador  rama_de_usuario_colaborador) ni el código de Pull Request (codigo_de_pull_request)
-
-*Desde línea de comandos*:
-
-```bash
-    # Cambiar a la rama master y descargar los cambios del repositorio remoto
-    # (aún no se aplicarán cambios a ningún archivo).
-    git checkout master
-    git fetch origin
-    
-    # Eliminar cualquier cambio en local y sobreescribirlo con los cambios del repositorio remoto.
-    # Así, el repositorio local tendrá lo mismo que el repositorio remoto (un punto de partida seguro).
-    git reset --hard origin/master
-    
-    # Descargar los cambios contenidos en el Pull Request con número <pr-codigo_de_pull_request>
-    # (que podría ser por ejemplo el 50).
-    git fetch origin refs/pull/<codigo_de_pull_request>/head
-    
-    # Crear una nueva rama (<rama_de_usuario_colaborador>) para contener los cambios del Pull Request.
-    git checkout -b <rama_de_usuario_colaborador> FETCH_HEAD
-    
-    # Hacer que el commit por el que comienza la rama recién creada sea el último commit en el master. 
-    git rebase master
-    
-    # Comprobar las mejoras o cambios 
-    git log -p -2
-    
-    # Incorporar los cambios a la rama master para que formen parte del código de nuestro proyecto.
-    git checkout master
-    git merge --no-ff <rama_de_usuario_colaborador>
-    
-    # Subir los cambios al repositorio remoto
-    git push origin master
-    
-    # Eliminar la rama
-    git branch -d <rama_de_usuario_colaborador>
-```
-
+1. Después de confirmar, resulta esta nueva pantalla.  ![Merge pull-request](images/AceptarPullRequest-07.PNG)
+1. El resultado puede verse directamente en la url [https://campusciff-juangarciaciff.github.io/](https://campusciff-juangarciaciff.github.io/). ![Resultado merge pull-request](images/AceptarPullRequest-08.PNG)
