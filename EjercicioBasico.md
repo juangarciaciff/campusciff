@@ -153,8 +153,15 @@ Cuenta de GitHub
 
 1. Desde el menú desplegable de la esquina superior derecha de la pantalla seleccionar la opción "**Setting**"
 1. Pulsar sobre la opción "**Security**" del menú:. ![Primera pantalla](images/FactorAutenticacion2-01.PNG)
-1. Pulsar sobre el botón "**Set up two-factor authentication**". ![Segunda pantalla](images/FactorAutenticacion2-02.PNG)
-1. Seleccionar una de las opciones, rellenar los datos y seguir las intrucciones. En la imagen siguiente se muestra el formulario que aparece después de haber pulsado sobre el botón "**Set up using SMS**". ![Tercera pantalla](images/FactorAutenticacion2-03.PNG)
+1. Pulsar sobre el botón "**Set up two-factor authentication**". ![Segunda pantalla](images/FactorAutenticacion2-02.PNG), por ejemplo 
+
+
+1. Seleccionar una de las opciones, por ejemplo **Set up using SMS**", rellenar los datos y seguir las intrucciones. 
+
+![Tercera pantalla](images/FactorAutenticacion2-05.PNG)
+![Tercera pantalla](images/FactorAutenticacion2-06.PNG)
+![Tercera pantalla](images/FactorAutenticacion2-07.PNG)
+
 
 #### 3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador. 
 
@@ -175,6 +182,9 @@ Cuenta de GitHub
 1. Acceder a la página "**SSH and GPG keys**" desde el menú principal y pulsar sobre el botón "**New SSH key**". ![SSH generación](images/GenerarSSH-02.PNG)
 1. Añadir título y pegar el contenido del portapapeles (fichero *id_rsa.pub*). ![SSH generación](images/GenerarSSH-03.PNG)
 1. Pulsar el botón "**Add SSH key**". ![SSH generación](images/GenerarSSH-04.PNG)
+
+
+
 
 Uso social de GitHub
 ==================================================
