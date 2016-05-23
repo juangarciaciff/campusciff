@@ -297,13 +297,6 @@ Crear Pull-requests
 1. Desde la rama, pulsar el botón "**New pull request**", escribir un mensaje y pulsar el botón "**Create pull request**". ![Pull request](images/Pull-01.PNG)
 
 
-> NOTA: añado una nueva versión por línea de comandos
-
-```bash
-    ... pendiente ...
-```
-
-
 Gestionar Pull-requests
 ==================================================
 
