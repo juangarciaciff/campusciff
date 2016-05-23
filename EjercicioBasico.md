@@ -154,13 +154,11 @@ Cuenta de GitHub
 1. Desde el menú desplegable de la esquina superior derecha de la pantalla seleccionar la opción "**Setting**"
 1. Pulsar sobre la opción "**Security**" del menú:. ![Primera pantalla](images/FactorAutenticacion2-01.PNG)
 1. Pulsar sobre el botón "**Set up two-factor authentication**". ![Segunda pantalla](images/FactorAutenticacion2-02.PNG), por ejemplo 
+1. Seleccionar una de las opciones, por ejemplo **Set up using SMS**", rellenar los datos de teléfono y seguir las intrucciones. recibiemos en nuestri teléfono un c´odigo numérico de 6 dígitos que deberemos introducir en el campo correspondiente del formulario.
 
-
-1. Seleccionar una de las opciones, por ejemplo **Set up using SMS**", rellenar los datos y seguir las intrucciones. 
-
+![Tercera pantalla](images/FactorAutenticacion2-04.PNG)
 ![Tercera pantalla](images/FactorAutenticacion2-05.PNG)
 ![Tercera pantalla](images/FactorAutenticacion2-06.PNG)
-![Tercera pantalla](images/FactorAutenticacion2-07.PNG)
 
 
 #### 3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador. 
