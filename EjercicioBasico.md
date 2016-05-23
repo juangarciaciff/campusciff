@@ -154,7 +154,7 @@ Cuenta de GitHub
 1. Desde el menú desplegable de la esquina superior derecha de la pantalla seleccionar la opción "**Setting**"
 1. Pulsar sobre la opción "**Security**" del menú:. ![Primera pantalla](images/FactorAutenticacion2-01.PNG)
 1. Pulsar sobre el botón "**Set up two-factor authentication**". ![Segunda pantalla](images/FactorAutenticacion2-02.PNG), por ejemplo 
-1. Seleccionar una de las opciones, por ejemplo **Set up using SMS**", rellenar los datos de teléfono y seguir las intrucciones. recibiemos en nuestri teléfono un c´odigo numérico de 6 dígitos que deberemos introducir en el campo correspondiente del formulario.
+1. Seleccionar una de las opciones, por ejemplo **Set up using SMS**", rellenar los datos de teléfono y seguir las intrucciones. Recibiemos en nuestro teléfono un código numérico de 6 dígitos que deberemos introducir en el campo correspondiente del formulario.
 
 ![Tercera pantalla](images/FactorAutenticacion2-04.PNG)
 ![Tercera pantalla](images/FactorAutenticacion2-05.PNG)
@@ -194,7 +194,7 @@ Uso social de GitHub
 1. Desde el menú desplegable de la esquina superior derecha de la pantalla seleccionar la opción "**Explore**".
 1. En el cuadro de texto de la parte superior de la nueva pantalla escribir el nombre de usuario de un compañero y pusar la tecla Return. ![Burcar compañeros](images/BuscarOtros-01.PNG)
 1. Aparecerá una nueva pantalla con la lista de elementos de GitHub que corresponden al texto escrito. Pulsar sobre la opción "**Users**" del menú, localizar la persona buscada y pulsar sobre el botón "**Follow**" correspondiente. ![Burcar compañeros](images/BuscarOtros-02.PNG)
-1. En la pantalla "Following" pueden verse los compañreros a los que se está siguiendo. ![Siguiendo A](images/SiguiendoA.PNG)
+1. En la pantalla "Following" pueden verse los compañeros a los que se está siguiendo. ![Siguiendo A](images/SiguiendoA.PNG)
 
 #### 2. Seguir los repositorios campusciff del resto de tus compañeros. 
 
